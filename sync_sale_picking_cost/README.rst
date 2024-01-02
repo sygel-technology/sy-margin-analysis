@@ -2,12 +2,11 @@
 	:target: http://www.gnu.org/licenses/agpl
 	:alt: License: AGPL-3
 
-================
-Carier Follow Up
-================
+======================
+Sync Sale Picking Cost
+======================
 
-This module allows to follow the status of shipments. It provides a base so be used for different carriers to automatically
-update the shipments status. I also creates a timesheet line when an outgoing picking is 'in preparation'.
+This module allows to synzhronize the cost of sale order lines depending on the outgoing pickings. The cost is updated when the outgoing picking is validated, according to the selected serial number or lot in case the product uses this tracking system, if the stock_valuation_fifo_lot module is installed.
 
 
 Installation
@@ -25,11 +24,7 @@ Configuration
 
 To configure this module, you need to:
 
-#. Go to the stock picking types and select an account in the field 'Preparation Timesheet Account' on those that will create a timesheet
-line when the 'In preparation' field in the picking is set to True.
-#. Check the 'Provides Follow Up Information' checkbox in those carriers that automatically provide shipping information. The methods have
-to be developed in modules that depend on this one.
-#. Activate the 'Update Shipments Status' crone if shipments status have to be checked automatically.
+#. No configuration instructions needed.
 
 
 Usage
@@ -37,8 +32,7 @@ Usage
 
 To use this module, you need to:
 
-#. Outgoing pickings cannot be validated unless they are 'In preparation'. Press on the 'In preparation' button to be able to validate the picking.
-This action will automatically create a timesheet line related to the picking and assigned to the picking resposnsible or the current user.
+#. No usage instructions needed.
 
 
 ROADMAP
@@ -54,10 +48,10 @@ ROADMAP
 Bug Tracker
 ===========
 
-Bugs and errors are managed in `issues of GitHub <https://github.com/sygel/REPOSITORY/issues>`_.
+Bugs and errors are managed in `issues of GitHub <https://github.com/sygel-technology/sy-sale_workflow/issues>`_.
 In case of problems, please check if your problem has already been
 reported. If you are the first to discover it, help us solving it by indicating
-a detailed description `here <https://github.com/sygel/REPOSITORY/issues/new>`_.
+a detailed description `here <https://github.com/sygel-technology/sy-sale_workflow/issues/new>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -86,6 +80,6 @@ This module is maintained by Sygel.
    :alt: Sygel
    :target: https://www.sygel.es
 
-This module is part of the `Sygel/REPOSITORY <https://github.com/sygel/repository>`_.
+This module is part of the `Sygel/sy-sale_workflow <https://github.com/sygel-technology/sy-sale_workflow>`_.
 
-To contribute to this module, please visit https://github.com/sygel.
+To contribute to this module, please visit https://github.com/sygel-tecnology.

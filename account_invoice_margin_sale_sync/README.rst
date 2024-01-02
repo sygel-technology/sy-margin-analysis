@@ -6,7 +6,7 @@
 Account Invoice Margin Sale Sync
 ================================
 
-This module allows to invoice margin between invoices and sale orders.
+This module allows to synchrnize invoice margin between invoices and sale orders.
 
 
 Installation
@@ -31,6 +31,7 @@ Usage
 To use this module, you need to:
 
 #. No instructions needed.
+
 
 ROADMAP
 =======

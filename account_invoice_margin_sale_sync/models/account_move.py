@@ -10,14 +10,9 @@ class AccountMoveLine(models.Model):
     def _get_purchase_price(self):
         """Overriden from `account_invoice_margin` method"""
         self.ensure_one()
-        return (
-            self.sale_line_ids.purchase_price
-            or self.product_id.standard_price
-        )
+        return self.sale_line_ids.purchase_price or self.product_id.standard_price
 
-    @api.depends(
-        "product_id", "product_uom_id", "sale_line_ids.purchase_price"
-    )
+    @api.depends("product_id", "product_uom_id", "sale_line_ids.purchase_price")
     def _compute_purchase_price(self):
         """Exclude posted invoice lines depending on company setting values."""
         lines_posted = self.filtered(

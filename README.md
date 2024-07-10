@@ -1,8 +1,8 @@
 
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/pre-commit.yml?query=branch%3A15.0)
-[![Build Status](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/test.yml?query=branch%3A15.0)
-[![codecov](https://codecov.io/gh/sygel-technology/sy-margin-analysis/branch/15.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-margin-analysis)
+[![Pre-commit Status](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/pre-commit.yml?query=branch%3A16.0)
+[![Build Status](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-margin-analysis/actions/workflows/test.yml?query=branch%3A16.0)
+[![codecov](https://codecov.io/gh/sygel-technology/sy-margin-analysis/branch/16.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-margin-analysis)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
 <!-- /!\ do not modify above this line -->
@@ -17,12 +17,7 @@ Odoo Financial Controlling (margin, costs, ...)
 
 [//]: # (addons)
 
-Available addons
-----------------
-addon | version | maintainers | summary
---- | --- | --- | ---
-[account_invoice_margin_sale_sync](account_invoice_margin_sale_sync/) | 15.0.1.0.0 |  | Sync invoice margin between invoices and sale orders
-[sync_sale_picking_cost](sync_sale_picking_cost/) | 15.0.1.0.0 |  | Sync Sale Picking Cost
+This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 
 [//]: # (end addons)
 

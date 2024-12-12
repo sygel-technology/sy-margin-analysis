@@ -1,6 +1,6 @@
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
-	:target: http://www.gnu.org/licenses/agpl
-	:alt: License: AGPL-3
+    :target: http://www.gnu.org/licenses/agpl
+    :alt: License: AGPL-3
 
 ======================
 Sync Sale Picking Cost
@@ -41,8 +41,6 @@ ROADMAP
 [ Enumerate known caveats and future potential improvements.
   It is mostly intended for end-users, and can also help
   potential new contributors discovering new features to implement. ]
-
-* ...
 
 
 Bug Tracker

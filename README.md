@@ -21,8 +21,8 @@ Available addons
 ----------------
 addon | version | maintainers | summary
 --- | --- | --- | ---
-[account_invoice_margin_sale_sync](account_invoice_margin_sale_sync/) | 15.0.1.0.0 |  | Sync invoice margin between invoices and sale orders
-[sync_sale_picking_cost](sync_sale_picking_cost/) | 15.0.1.0.0 |  | Sync Sale Picking Cost
+[account_invoice_margin_sale_sync](account_invoice_margin_sale_sync/) | 15.0.1.0.1 |  | Sync invoice margin between invoices and sale orders
+[sync_sale_picking_cost](sync_sale_picking_cost/) | 15.0.1.0.1 |  | Sync Sale Picking Cost
 
 [//]: # (end addons)
 

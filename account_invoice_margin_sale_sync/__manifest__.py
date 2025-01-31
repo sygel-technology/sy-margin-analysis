@@ -4,7 +4,7 @@
 {
     "name": "Account Invoice Margin Sale Sync",
     "summary": "Sync invoice margin between invoices and sale orders",
-    "version": "15.0.1.0.0",
+    "version": "15.0.1.0.1",
     "category": "Account",
     "website": "https://github.com/sygel-technology/sy-margin-analysis",
     "author": "Sygel, Odoo Community Association (OCA)",

@@ -18,17 +18,3 @@ class StockMove(models.Model):
             if line_id.purchase_price != layer.unit_cost:
                 line_id.write({"purchase_price": layer.unit_cost})
         return layers
-
-    def _create_in_svl(self, forced_quantity=None):
-        layers = super()._create_in_svl(forced_quantity)
-        for layer in layers.filtered(
-            lambda a: a.stock_move_id
-            and a.stock_move_id.sale_line_id
-            and a.stock_move_id.sale_line_id.product_id.apply_sync_sale_picking_cost
-            and a.stock_move_id.origin_returned_move_id
-            and a.stock_move_id.origin_returned_move_id.sudo().stock_valuation_layer_ids
-        ):
-            line_id = layer.stock_move_id.sale_line_id
-            if line_id.purchase_price != layer.unit_cost:
-                line_id.write({"purchase_price": layer.unit_cost})
-        return layers

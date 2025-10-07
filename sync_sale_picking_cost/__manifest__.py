@@ -4,7 +4,7 @@
 {
     "name": "Sync Sale Picking Cost",
     "summary": "Sync Sale Picking Cost",
-    "version": "15.0.1.0.1",
+    "version": "15.0.2.0.0",
     "category": "Stock",
     "development_status": "Alpha",
     "website": "https://github.com/sygel-technology/sy-margin-analysis",
